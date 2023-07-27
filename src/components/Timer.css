@@ -1,0 +1,17 @@
+.rotate-animation {
+    animation: rotate 0.5s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+  
+  .digit {
+    display: inline-block;
+  }
+  
